@@ -1,7 +1,7 @@
 {
   "name": "chainlist-mcp",
   "version": "1.0.0",
-  "description": "PILSO chainlist-mcp for getting chainlist information",
+  "description": "ROXI chainlist-mcp for getting chainlist information",
   "type": "module",
   "main": "./build/index.js",
   "bin": {
