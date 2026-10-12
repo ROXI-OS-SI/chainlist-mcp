@@ -3,7 +3,7 @@ import type { FastMCP } from "fastmcp";
 import { getBlock } from "@wagmi/core";
 import { Address } from "abitype/zod";
 import { z } from "zod";
-import { JSONStringify } from "../utils/json-stringify";
+import { JSONStringify } from "../utils/json-stringify.js";
 
 export function registerGetBlockTools(server: FastMCP, wagmiConfig: Config): void {
   server.addTool({

@@ -4,7 +4,7 @@ import { estimateGas } from "@wagmi/core";
 import { Address } from "abitype/zod";
 import { TransactionExecutionError } from "viem";
 import { z } from "zod";
-import { JSONStringify } from "../utils/json-stringify";
+import { JSONStringify } from "../utils/json-stringify.js";
 
 export function registerEstimateGasTools(server: FastMCP, wagmiConfig: Config): void {
   server.addTool({

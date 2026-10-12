@@ -2,7 +2,7 @@ import { FastMCP } from "fastmcp";
 import { registerChainlistTools } from "./tools/index.js";
 
 const server = new FastMCP({
-  name: "Chainlist",
+  name: "ROXI chainlist-mcp",
   version: "1.0.0",
 });
 

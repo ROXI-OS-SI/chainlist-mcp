@@ -1,11 +1,11 @@
 {
   "name": "chainlist-mcp",
   "version": "1.0.0",
-  "description": "ROXI chainlist-mcp for getting chainlist information",
+  "description": "ROXI OS chain metadata and RPC resolution MCP server: chain IDs, RPC endpoints, gas and block data for onchain agents.",
   "type": "module",
   "main": "./build/index.js",
   "bin": {
-    "metamask": "./build/index.js"
+    "chainlist-mcp": "./build/index.js"
   },
   "scripts": {
     "inspect": "pnpm dlx fastmcp inspect ./src/index.ts",
@@ -16,15 +16,32 @@
   "files": [
     "build"
   ],
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "roxi",
+    "roxi-os",
+    "mcp",
+    "model-context-protocol",
+    "ai-agents",
+    "web3",
+    "ethereum"
+  ],
+  "author": "ROXI OS",
+  "license": "MIT",
   "dependencies": {
-    "fastmcp": "^1.21.0",
+    "@kvs/memorystorage": "^2.1.4",
+    "@wagmi/core": "^2.16.7",
+    "abitype": "^1.0.8",
+    "fastmcp": "^4.22.4",
+    "viem": "^2.27.2",
     "zod": "^3.24.2"
   },
   "devDependencies": {
     "@types/node": "^22.13.17",
     "typescript": "^5.8.2"
+  },
+  "homepage": "https://docs.roxi.so/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Roxi-OS/chainlist-mcp-main.git"
   }
 }

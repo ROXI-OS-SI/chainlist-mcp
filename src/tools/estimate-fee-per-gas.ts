@@ -2,7 +2,7 @@ import type { Config } from "@wagmi/core";
 import type { FastMCP } from "fastmcp";
 import { estimateFeesPerGas } from "@wagmi/core";
 import { z } from "zod";
-import { JSONStringify } from "../utils/json-stringify";
+import { JSONStringify } from "../utils/json-stringify.js";
 
 export function registerEstimateFeePerGasTools(server: FastMCP, wagmiConfig: Config): void {
   server.addTool({
