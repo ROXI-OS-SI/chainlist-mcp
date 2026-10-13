@@ -34,7 +34,7 @@ Add it to your MCP client (for example Claude Desktop's `claude_desktop_config.j
   "mcpServers": {
     "chainlist": {
       "command": "npx",
-      "args": ["-y", "chainlist-mcp"]
+      "args": ["-y", "@roxi-os/chainlist-mcp"]
     }
   }
 }
