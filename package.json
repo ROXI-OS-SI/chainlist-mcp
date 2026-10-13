@@ -1,6 +1,6 @@
 {
   "name": "@roxi-os/chainlist-mcp",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "ROXI OS chain metadata and RPC resolution MCP server: chain IDs, RPC endpoints, gas and block data for onchain agents.",
   "type": "module",
   "main": "./build/index.js",
