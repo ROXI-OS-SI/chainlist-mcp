@@ -4,7 +4,7 @@
 
 It gives an agent up-to-date network information from [Chainlist](https://chainlist.org/) (chain IDs, RPC endpoints, explorers and native currencies), so nothing has to be hardcoded. Ask _"Which RPC can I use for Arbitrum?"_ and the agent can look it up.
 
-📖 Docs: [docs.roxi.so](https://docs.roxi.so/)
+📖 Docs: [roxi-ten.vercel.app/docs/servers/chainlist-mcp](https://roxi-ten.vercel.app/docs/servers/chainlist-mcp)
 
 ---
 
