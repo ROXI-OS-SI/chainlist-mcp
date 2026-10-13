@@ -2,9 +2,9 @@
 
 [![npm](https://img.shields.io/npm/v/@roxi-os/chainlist-mcp?label=npm&color=c5f24a)](https://www.npmjs.com/package/@roxi-os/chainlist-mcp)
 [![license](https://img.shields.io/badge/license-MIT-blue)](./LICENSE)
-[![docs](https://img.shields.io/badge/docs-roxi--ten.vercel.app-black)](https://roxi-ten.vercel.app/docs/servers/chainlist-mcp)
+[![docs](https://img.shields.io/badge/docs-roxi--os.si-black)](https://roxi-os.si/docs/servers/chainlist-mcp)
 
-**The network module of [ROXI OS](https://roxi-ten.vercel.app)**, the Reasoning-Oriented Execution Interface.
+**The network module of [ROXI OS](https://roxi-os.si)**, the Reasoning-Oriented Execution Interface.
 
 `chainlist-mcp` gives an AI agent live network data from [Chainlist](https://chainlist.org): chain IDs, RPC endpoints, block explorers and native currencies. Nothing has to be hardcoded, and the agent can pick an RPC endpoint that doesn't track you.
 
@@ -66,7 +66,7 @@ Example entry (excerpt):
 }
 ```
 
-Reference: [chainlist-mcp docs](https://roxi-ten.vercel.app/docs/servers/chainlist-mcp).
+Reference: [chainlist-mcp docs](https://roxi-os.si/docs/servers/chainlist-mcp).
 
 ---
 
@@ -113,7 +113,7 @@ Then point your client at the build:
 | [erc20-mcp](https://github.com/ROXI-OS-SI/erc20-mcp) | ERC-20 transfers, approvals and reads |
 | [solc-mcp](https://github.com/ROXI-OS-SI/solc-mcp) | Solidity compilation |
 
-📖 [Documentation](https://roxi-ten.vercel.app/docs) · 📦 [npm](https://www.npmjs.com/org/roxi-os)
+📖 [Documentation](https://roxi-os.si/docs) · 📦 [npm](https://www.npmjs.com/org/roxi-os)
 
 ## ⚖️ License
 

@@ -39,7 +39,7 @@
     "@types/node": "^22.13.17",
     "typescript": "^5.8.2"
   },
-  "homepage": "https://roxi-ten.vercel.app/docs/servers/chainlist-mcp",
+  "homepage": "https://roxi-os.si/docs/servers/chainlist-mcp",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ROXI-OS-SI/chainlist-mcp.git"
