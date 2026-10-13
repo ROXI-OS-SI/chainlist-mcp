@@ -1,6 +1,6 @@
 # 🔗 chainlist-mcp
 
-`chainlist-mcp` is the chain metadata module of **[ROXI OS](https://github.com/Roxi-OS)**, the Reasoning-Oriented Execution Interface for onchain agents.
+`chainlist-mcp` is the chain metadata module of **[ROXI OS](https://github.com/ROXI-OS-SI)**, the Reasoning-Oriented Execution Interface for onchain agents.
 
 It gives an agent up-to-date network information from [Chainlist](https://chainlist.org/) (chain IDs, RPC endpoints, explorers and native currencies), so nothing has to be hardcoded. Ask _"Which RPC can I use for Arbitrum?"_ and the agent can look it up.
 
@@ -13,7 +13,7 @@ It gives an agent up-to-date network information from [Chainlist](https://chainl
 - **Live chain data** — fetched from Chainlist, including RPC endpoints and whether each one tracks users.
 - **No configuration** — no API keys and no wallet needed.
 - **Model-agnostic** — works with Claude, GPT, or any client that speaks the Model Context Protocol (MCP).
-- **Composable** — feeds network details to [`metamask-mcp`](https://github.com/Roxi-OS/metamask-mcp) and [`erc20-mcp`](https://github.com/Roxi-OS/erc20-mcp-main).
+- **Composable** — feeds network details to [`metamask-mcp`](https://github.com/ROXI-OS-SI/metamask-mcp) and [`erc20-mcp`](https://github.com/ROXI-OS-SI/erc20-mcp).
 
 ## 🧱 How it fits
 
@@ -43,8 +43,8 @@ Add it to your MCP client (for example Claude Desktop's `claude_desktop_config.j
 ### From source
 
 ```bash
-git clone https://github.com/Roxi-OS/chainlist-mcp-main.git
-cd chainlist-mcp-main
+git clone https://github.com/ROXI-OS-SI/chainlist-mcp.git
+cd chainlist-mcp
 pnpm install
 pnpm build
 ```
@@ -56,7 +56,7 @@ Then point your client at the build:
   "mcpServers": {
     "chainlist": {
       "command": "node",
-      "args": ["/absolute/path/to/chainlist-mcp-main/build/index.js"]
+      "args": ["/absolute/path/to/chainlist-mcp/build/index.js"]
     }
   }
 }
