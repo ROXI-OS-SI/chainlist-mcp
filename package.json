@@ -5,7 +5,7 @@
   "type": "module",
   "main": "./build/index.js",
   "bin": {
-    "chainlist-mcp": "./build/index.js"
+    "chainlist-mcp": "build/index.js"
   },
   "scripts": {
     "inspect": "pnpm dlx fastmcp inspect ./src/index.ts",
@@ -33,7 +33,7 @@
     "abitype": "^1.0.8",
     "fastmcp": "^4.22.4",
     "viem": "^2.27.2",
-    "zod": "^3.24.2"
+    "zod": "^3.25.76"
   },
   "devDependencies": {
     "@types/node": "^22.13.17",
